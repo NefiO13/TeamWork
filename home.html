@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>My Team Roster</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+        <div class="container-fluid">
+
+            <!-- Brand link (title at left) -->
+            <a class="navbar-brand" href="home.html">LA&nbsp;Lakers</a>
+
+            <!-- Collapsible mobile toggle button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLakers"
+                aria-controls="navbarLakers" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible menu -->
+            <div class="collapse navbar-collapse" id="navbarLakers">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- Active page: Home -->
+                    <li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
+                    <!-- Other page links -->
+                    <li class="nav-item"><a class="nav-link" href="roster.html">Roster</a></li>
+                    <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="honor.html">Honorable Mention</a></li>
+                </ul>
+
+                <!-- Lakers logo (right side of navbar on desktop only) -->
+                <img src="https://cdn.nba.com/teams/uploads/sites/1610612747/2021/12/lakers_70x70.svg" alt="Lakers logo"
+                    class="d-none d-lg-block" style="width:48px;height:auto" />
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========= Page content ========= -->
+    <!-- Full-screen hero image background defined in styles.css -->
+    <main class="hero-full d-flex align-items-center justify-content-center text-center">
+        <div class="hero-overlay">
+            <!-- Main banner headline -->
+            <h1 class="display-4 fw-bold text-white mb-3">Meet the Lakers!</h1>
+
+            <!-- Tagline / Lyrics -->
+            <p class="lead text-blue mb-4">
+                Learn the players <br>
+                Learn the game <br>
+                Meet the Lakers!
+            </p>
+
+            <!-- Call-to-action button leading to Roster page -->
+            <a href="roster.html" class="btn btn-lg bg-lakers-purple text-white shadow">
+                Meet the Team
+            </a>
+        </div>
+    </main>
+
+    <!-- ========= JS (Bootstrap functionality like collapse) ========= -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+
+    <script src="player.js"></script>
+    <script src="roster.js"></script>
+
+</body>
+
+</html>
