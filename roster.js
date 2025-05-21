@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             col.innerHTML = `
             <div class="card h-100 shadow-sm">
-                <img scr="${p.photo}" alt="${p.firstName} ${p.lastName}" class="card-img-top">
+                <img src="${p.photo}" alt="${p.firstName} ${p.lastName}" class="card-img-top">
 
                 <div class="card-body text-center">
                     <h5 class="card-title mb-1">${p.firstName} ${p.lastName}</h5>

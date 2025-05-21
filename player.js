@@ -4,7 +4,7 @@ const players = [
         lastName: 'James',
         position: 'SF',
         age: '40',
-        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png&w=350&h=254'
+        photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png'
     },
 
     {
