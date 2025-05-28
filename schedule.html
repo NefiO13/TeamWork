@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Schedule | LA Lakers</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Google Font: Bebas Neue -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <!-- Custom site styles -->
+    <link href="styles.css" rel="stylesheet" />
+
+    <link rel="icon" type="image/png"
+        href="https://cdn.nba.com/teams/uploads/sites/1610612747/2021/12/lakers_70x70.svg" />
+</head>
+
+<body>
+
+    <!-- ========= Navbar ========= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">LA&nbsp;Lakers</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLakers"
+                aria-controls="navbarLakers" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarLakers">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="roster.html">Roster</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="schedule.html">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="honor.html">Honorable Mention</a></li>
+                </ul>
+                <img src="https://cdn.nba.com/teams/uploads/sites/1610612747/2021/12/lakers_70x70.svg" alt="Lakers logo"
+                    class="d-none d-lg-block" style="width:48px;height:auto" />
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========= Page content ========= -->
+    <main class="container py-4">
+        <h1 class="display-5 mb-3 text-center text-md-start">2025 Season Schedule</h1>
+
+        <div class="table-responsive">
+            <table id="scheduleTable" class="table table-striped table-hover align-middle">
+                <thead class="table-primary">
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Opponent</th>
+                        <th scope="col">Location</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Broadcast</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows inserted by schedule.js -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="schedule.js"></script>
+    <script src="player.js"></script>
+    <script src="roster.js"></script>
+
+</body>
+
+</html>

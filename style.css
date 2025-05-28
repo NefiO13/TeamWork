@@ -12,14 +12,12 @@
 
 html,
 body {
-    height: 100%;
+    height: 100vh;
     margin: 0;
     font-family: "Nunito", sans-serif;
     color: #5a458f;
     scroll-behavior: smooth;
-    background: url(imgs/stadium.jpg);
-    background-position: center;
-        background-repeat: no-repeat;
+    background: url(imgs/stadium.jpg) no-repeat center center fixed;
         background-size: cover;
 }
 
@@ -202,56 +200,22 @@ body.night {
     background: var(--Lakers-yellow);
 }
 
-.badge-pos-1B {
+.badge-pos-PG {
     background: #388e3c;
 }
 
-.badge-pos-2B {
+.badge-pos-C {
     background: #00695c;
 }
 
-.badge-pos-3B {
+.badge-pos-G {
     background: #8e24aa;
 }
 
-.badge-pos-SS {
+.badge-pos-SF {
     background: #f9a825;
 }
 
-.badge-pos-LF {
-    background: #d84315;
-}
-
-.badge-pos-CF {
-    background: #283593;
-}
-
-.badge-pos-RF {
-    background: #6a1b9a;
-}
-
-.badge-pos-DH {
-    background: #546e7a;
-}
-
-.badge-pos-INF {
-    background: #71f56f;
-}
-
-/* purple‑ish */
-.badge-pos-SP {
-    background: #7fb4ea;
-}
-
-/* bright blue for starters */
-.badge-pos-RP {
-    background: #c62828;
-}
-
-/* bold red for relievers  */
-.badge-pos-OF {
-    background: #ef06a5;
-}
 
 @media (min-width: 992px) {
     #rosterGrid .col-lg-2 {
