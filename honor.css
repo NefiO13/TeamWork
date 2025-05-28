@@ -1,0 +1,64 @@
+:root {
+    --Lakers-purple: #49137f;
+    --Lakers-yellow: #d6a60a;
+    --Lakers-black: #000000;
+}
+
+
+/* ============================================================
+     2) GLOBAL / BASE TYPOGRAPHY
+     ============================================================ */
+
+html,
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    color: #5a458f;
+    scroll-behavior: smooth;
+    background: url(imgs/kobe.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Sporty headings & nav links */
+h1,
+h2,
+h3,
+.navbar-brand,
+.navbar-nav .nav-link {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+
+/* ============================================================
+     3) NAVBAR
+     ============================================================ */
+
+.navbar {
+    background-color: var(--Lakers-black) !important;
+    padding-block: 0.35rem !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 1.35rem;
+    transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link.active {
+    text-decoration: underline;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: var(--Lakers-yellow) !important;
+}
+
+.navbar img {
+    flex-shrink: 0;
+    width: 48px;
+    height: auto;
+}
