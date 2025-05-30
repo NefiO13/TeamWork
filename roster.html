@@ -60,27 +60,23 @@
         <div id="rosterGrid" class="row g-3"></div>
 
         <!--modal-->
-        <div class="modal fade" id="playerModal" tabindex="-1" aria-labelledby="playerModalLabel" aria-hidden="true">
+        <div class="modal fade" id="playerModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
+
                     <div class="modal-header">
-                        <h5 class="modal-title" id="playerModalLabel">Player Details</h5>
+                        <h1 class="modal-title fs-5" id="modalTitle">Player Info</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
-                        <p><strong>Fun Facts:</strong> <span id="modalFacts"></span></p>
-                    </div>
 
-
-                    <!--modal facts-->
                     <div class="modal-body" id="modalFacts">
-                        <!-- Facts go here -->
+                        <!-- Player facts will be injected here -->
                     </div>
-
 
                     <div class="modal-footer">
-                        <button type="button" class="btn " data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
+
                 </div>
             </div>
         </div>
