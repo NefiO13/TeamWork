@@ -5,7 +5,11 @@ const players = [
         position: 'SF',
         age: '40',
         photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png',
-        Facts: ["he needs to retire right now"]
+        Facts: [
+            "he needs to retire right now",
+            "LeBron James has an impressive record, scoring in double figures in a remarkable 1,222 consecutive games, an NBA record"
+
+        ]
     },
 
     {
@@ -13,7 +17,11 @@ const players = [
         lastName: 'Reaves',
         position: 'SG',
         age: '26',
-        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4066457.png&w=350&h=254'
+        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4066457.png&w=350&h=254',
+        Facts:
+            [
+                " He was a 2020-21 All-Big 12 First Team selection, led the Big 12 in free throws made, and became the first player to ever lead Oklahoma in points, rebounds, and assists."
+            ]
     },
 
     {
