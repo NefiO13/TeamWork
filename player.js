@@ -4,7 +4,8 @@ const players = [
         lastName: 'James',
         position: 'SF',
         age: '40',
-        photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png'
+        photo: 'https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png',
+        Facts: ["he needs to retire right now"]
     },
 
     {

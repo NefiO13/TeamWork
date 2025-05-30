@@ -54,28 +54,36 @@
     <!-- ========= Page content ========= -->
     <main class="container py-4">
 
-        <!-- Filter & Sort Controls -->
-        <div class="row mb-3 g-2">
-            <!-- Search box -->
-            <div class="col-12 col-md-6">
-                <input type="search" id="searchInput" class="form-control" placeholder="Search roster by name…" />
-            </div>
-
-            <!-- Sort dropdown -->
-            <div class="col-12 col-md-4">
-                <select id="sortSelect" class="form-select">
-                    <option value="lastName-asc">Sort by Last Name (A → Z)</option>
-                    <option value="firstName-asc">Sort by First Name (A → Z)</option>
-                    <option value="age-asc">Sort by Age (Young → Old)</option>
-                    <option value="age-desc">Sort by Age (Old → Young)</option>
-                    <option value="position-asc">Sort by Position</option>
-                </select>
-            </div>
-        </div>
 
         <!-- Player Cards -->
         <!-- JS will dynamically inject all cards here -->
         <div id="rosterGrid" class="row g-3"></div>
+
+        <!--modal-->
+        <div class="modal fade" id="playerModal" tabindex="-1" aria-labelledby="playerModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="playerModalLabel">Player Details</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p><strong>Fun Facts:</strong> <span id="modalFacts"></span></p>
+                    </div>
+
+
+                    <!--modal facts-->
+                    <div class="modal-body" id="modalFacts">
+                        <!-- Facts go here -->
+                    </div>
+
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn " data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
 

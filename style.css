@@ -257,3 +257,8 @@ table#scheduleTable tbody tr:hover {
 
 .bg-Lakers-orange {
     background: var(--Lakers-purple) !important; }
+
+.btn{
+    background-color: #530c78;
+    color: rgba(210, 210, 20, 0.877);
+}
