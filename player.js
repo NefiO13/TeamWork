@@ -29,7 +29,11 @@ const players = [
         lastName: 'Doncic',
         position: 'PG',
         age: '26',
-        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3945274.png&w=350&h=254'
+        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3945274.png&w=350&h=254',
+        Facts: [
+            "He is a multilingual individual, speaking Slovenian, Spanish, Serbian, and English.",
+            "Furthermore, Dončić is an avid gamer, even reaching a top 500 ranking in Overwatch 2 in 2024"
+        ]
     },
 
     {
@@ -37,7 +41,10 @@ const players = [
         lastName: 'Finney-Smith',
         position: 'PF',
         age: '32',
-        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2578185.png&w=350&h=254'
+        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2578185.png&w=350&h=254',
+        Facts: [
+            " He is considered a valuable '3 and D' player, meaning he excels at both shooting from 3-point range and guarding opponents."
+        ]
     },
 
     {
@@ -45,7 +52,10 @@ const players = [
         lastName: 'Goodwin',
         position: 'G',
         age: '26',
-        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4278402.png&w=350&h=254'
+        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4278402.png&w=350&h=254',
+        Facts: [
+            "Goodwin has played 140 NBA games, including 24 starts, across his four seasons with the Lakers, Memphis Grizzlies, Phoenix Suns, and Washington Wizards. "
+        ]
     },
 
     {
@@ -53,21 +63,28 @@ const players = [
         lastName: 'Hachimura',
         position: 'PF',
         age: '27',
-        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4066648.png&w=350&h=254'
+        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4066648.png&w=350&h=254',
+        Facts: [
+            "Rui Hachimura will be one of the NBA's most prominent rookies after becoming the first Japanese-born player selected in the first round."
+        ]
     },
     {
         firstName: 'Jaxson',
         lastName: 'Hayes',
         position: 'C',
         age: '24',
-        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4397077.png&w=350&h=254'
+        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4397077.png&w=350&h=254',
+        Facts: [
+            " He has scored double figures in 84 career games, including 10 games with 20+ points, and nine career double-doubles."
+        ]
     },
     {
         firstName: 'Bronny',
         lastName: 'James',
         position: 'G',
         age: '20',
-        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4683774.png&w=350&h=254'
+        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4683774.png&w=350&h=254',
+        Facts
     },
     {
         firstName: 'Trey',
